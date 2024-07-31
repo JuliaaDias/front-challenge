@@ -1,8 +1,9 @@
-Boas-vindas ao Teste XPTO!
+Boas-vindas ao Teste para desenvolvedor front end!
 
-O teste consiste em realizar a construção destas duas telas do Figma: https://www.figma.com/design/x2ORRwjXIsYt0WtmFoVBy6/LP---XPTO?node-id=0-1&t=S6et8GRS3ZrnCTAr-0
+O teste consiste em realizar a construção das seguintes telas: 
+https://www.figma.com/design/x2ORRwjXIsYt0WtmFoVBy6/LP---XPTO?node-id=0-1&t=S6et8GRS3ZrnCTAr-0
 
-Para tal, foi criado um mock neste projeto para simular uma chamada ao servidor, basta rodar o script:
+Você também deve integrar as telas acima com uma api mock que pode ser encontrada neste projeto, basta rodar o script:
 
 ```bash
 npm run server
