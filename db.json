@@ -1,0 +1,188 @@
+{
+   "bff": {
+      "title": "Central de Acesso aos Dashboards do XPTO.",
+      "subtitle": "Conecte-se aos seus serviços de visualização.",
+      "products": [
+         {
+            "id": 0,
+            "title": "plataforma one",
+            "subtitle": "visão de indicadores",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non, mollit anim id est laborum.",
+            "imagePath": "/images/logo.svg",
+            "dashboards": [
+               {
+                  "id": 0,
+                  "name": "aquisição",
+                  "documentations": [
+                     {
+                        "id": 0,
+                        "name": "doc onboarding aquisição"
+                     }
+                  ]
+               },
+               {
+                  "id": 1,
+                  "name": "canal - home",
+                  "documentations": [
+                     {
+                        "id": 0,
+                        "name": "doc home"
+                     }
+                  ]
+               },
+               {
+                  "id": 2,
+                  "name": "daily banking",
+                  "documentations": [
+                     {
+                        "id": 0,
+                        "name": "doc daily banking"
+                     }
+                  ]
+               },
+               {
+                  "id": 3,
+                  "name": "início de relacionamento",
+                  "documentations": []
+               },
+               {
+                  "id": 4,
+                  "name": "migração cartões",
+                  "documentations": []
+               }
+            ]
+         },
+         {
+            "id": 1,
+            "title": "finOps",
+            "subtitle": "visão de indicadores",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non, mollit anim id est laborum.",
+            "imagePath": "/images/logo.svg",
+            "dashboards": [
+               {
+                  "id": 0,
+                  "name": "contas consumers",
+                  "documentations": []
+               }
+            ]
+         },
+         {
+            "id": 2,
+            "title": "canais digitais",
+            "subtitle": "visão de indicadores",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non, mollit anim id est laborum.",
+            "imagePath": "/images/logo.svg",
+            "dashboards": [
+               {
+                  "id": 0,
+                  "name": "buscas",
+                  "documentations": []
+               },
+               {
+                  "id": 1,
+                  "name": "vida financeira",
+                  "documentations": []
+               },
+               {
+                  "id": 2,
+                  "name": "omnichannel",
+                  "documentations": [
+                     {
+                        "id": 0,
+                        "name": "doc omnichannel"
+                     }
+                  ]
+               },
+               {
+                  "id": 3,
+                  "name": "IDL",
+                  "documentations": []
+               },
+               {
+                  "id": 4,
+                  "name": "hub de cliente",
+                  "documentations": []
+               },
+               {
+                  "id": 5,
+                  "name": "digitalização",
+                  "documentations": []
+               }
+            ]
+         },
+         {
+            "id": 3,
+            "title": "satisfação",
+            "subtitle": "visão de indicadores",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non, mollit anim id est laborum.",
+            "imagePath": "/images/logo.svg",
+            "dashboards": [
+               {
+                  "id": 0,
+                  "name": "alteração de limites",
+                  "documentations": []
+               },
+               {
+                  "id": 1,
+                  "name": "clientes impactados",
+                  "documentations": [
+                     {
+                        "id": 0,
+                        "name": "doc clientes impactados"
+                     }
+                  ]
+               },
+               {
+                  "id": 2,
+                  "name": "satisfação canais digitais",
+                  "documentations": []
+               }
+            ]
+         },
+         {
+            "id": 4,
+            "title": "segurança",
+            "subtitle": "visão de indicadores",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non, mollit anim id est laborum.",
+            "imagePath": "/images/logo.svg",
+            "dashboards": [
+               {
+                  "id": 0,
+                  "name": "one page",
+                  "documentations": []
+               },
+               {
+                  "id": 1,
+                  "name": "kit segurança",
+                  "documentations": []
+               },
+               {
+                  "id": 2,
+                  "name": "uso do canal físico",
+                  "documentations": []
+               },
+               {
+                  "id": 3,
+                  "name": "waterfall detalhes",
+                  "documentations": []
+               },
+               {
+                  "id": 4,
+                  "name": "visão",
+                  "documentations": []
+               },
+               {
+                  "id": 5,
+                  "name": "login",
+                  "documentations": []
+               },
+               {
+                  "id": 6,
+                  "name": "fingerprint",
+                  "documentations": []
+               }
+            ]
+         }
+      ]
+   }
+}

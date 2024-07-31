@@ -1,3 +1,15 @@
+Boas-vindas ao Teste XPTO!
+
+O teste consiste em realizar a construção destas duas telas do Figma: https://www.figma.com/design/x2ORRwjXIsYt0WtmFoVBy6/LP---XPTO?node-id=0-1&t=S6et8GRS3ZrnCTAr-0
+
+Para tal, foi criado um mock neste projeto para simular uma chamada ao servidor, basta rodar o script
+'npm run server'.
+
+Esperamos que não precise utilizar nenhuma outra biblioteca, além das que já estão no projeto, e
+utilize css puro.
+
+Boa sorte!!!
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
