@@ -1,0 +1,49 @@
+.dashboard-details{
+    min-height: 100vh;
+    background-image: url('/images/bg-XPTO.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    color: #FFF;
+}
+
+.details-content{
+    position: absolute;
+    margin: 5em;
+}
+
+.dashName{
+    color: #4ADC7C;
+}
+
+.prodTitle{
+    color: #1CAE4E;
+}
+
+.navbar {
+    background-color: #131820;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px;
+    border-bottom: 2px #4ADC81 solid;
+    padding: 0 5em;
+  }
+
+  .inicio{
+    color: #FFF;
+    text-decoration: none;
+    padding-top: 1.5em;
+    padding-left: 5em;
+    padding-right: 1em;
+  }
+
+  .inicio:hover{
+    color:#4ADC7C;
+  }
+  
+  .footer{
+    position: absolute;
+    bottom: 0;
+  }
