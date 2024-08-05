@@ -23,7 +23,7 @@ const SearchBar: React.FC<{
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(event.target.value);
-    // Filtrar imediatamente ao digitar (opcional)
+
     const filtered = filterProducts(event.target.value);
     onSearchResult(filtered);
   };

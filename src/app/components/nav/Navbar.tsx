@@ -22,6 +22,7 @@ type BffData = {
 
 const NavBar: React.FC = () => {
   const [bffData, setBffData] = useState<BffData | null>(null);
+  const [menuOpen, setMenuOpen] = useState(false);
   const router = useRouter();
 
   const handleButtonClick = (dashboard: Dashboard, productTitle: string) => {
@@ -41,11 +42,18 @@ const NavBar: React.FC = () => {
     loadData();
   }, []);
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <nav className="navbar">
-      <img src='/images/ico-data.svg' alt="Logo" />
+      <img src='/images/ico-data.svg' alt="Logo" className="navbar__logo" />
       <a href="/" className="inicio">início</a>
-      <ul className="navbar__menu">
+      <button className="navbar__toggle" onClick={toggleMenu}>
+        &#9776;
+      </button>
+      <ul className={`navbar__menu ${menuOpen ? 'navbar__menu--open' : ''}`}>
         {bffData?.products.map((product) => (
           <li key={product.id} className="navbar__item dropdown">
             <a href="#" className="navbar__link">

@@ -57,7 +57,8 @@ button .press{
  background-color: #4ADC7C;
 }
 
-button .disable{
+.disable{
+    cursor: not-allowed;
     pointer-events: none;
     border: 1px #6D747B solid;
     color: #6D747B;
