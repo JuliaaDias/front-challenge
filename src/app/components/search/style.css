@@ -43,3 +43,8 @@
     background-color: #4ADC81;
   }
   
+  @media (max-width: 768px) {
+    .search-bar{
+      max-width: 250px;
+    }
+  }
