@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './style.css';
+import React, { useState } from "react";
+import "./style.css";
 
 type Dashboard = {
   id: number;
@@ -19,7 +19,7 @@ const SearchBar: React.FC<{
   products: Product[];
   onSearchResult: (filteredProducts: Product[]) => void;
 }> = ({ products, onSearchResult }) => {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(event.target.value);
@@ -47,16 +47,21 @@ const SearchBar: React.FC<{
   };
 
   return (
-    <form className="search-bar" onSubmit={handleSearch}>
-      <input
-        type="text"
-        className="search-bar__input"
-        value={query}
-        onChange={handleInputChange}
-        placeholder="Informe o nome do dashboard que deseja"
-      />
-      <button type="submit" className="search-bar__button">Buscar</button>
-    </form>
+    <div>
+      <form className="search-bar" onSubmit={handleSearch}>
+        <input
+          type="text"
+          className="search-bar__input"
+          value={query}
+          onChange={handleInputChange}
+          placeholder="Informe o nome do dashboard que deseja"
+        />
+        <button type="submit" className="search-bar__button">
+          Buscar
+        </button>
+      </form>
+      <img src='/images/powerby.svg' alt="power by Gen IA" className="powerby__logo" />
+    </div>
   );
 };
 

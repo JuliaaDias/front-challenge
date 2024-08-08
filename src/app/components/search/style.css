@@ -42,9 +42,22 @@
   .search-bar__button:hover {
     background-color: #4ADC81;
   }
+
+  .powerby__logo{
+    width: 10em;
+    position: relative;
+    left: 26.25em;
+    top: .5em;
+
+  }
   
   @media (max-width: 600px) {
     .search-bar{
       max-width: 320px;
+    }
+
+    .powerby__logo{
+      left: 14.5em;
+  
     }
   }
